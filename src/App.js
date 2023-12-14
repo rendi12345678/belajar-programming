@@ -1,15 +1,9 @@
-import ParentOne from "./components/Optimization/ParentOne";
-import ChildOne from "./components/Optimization/ChildOne";
-import GrantParent from "./components/Optimization/GrantParent";
+import ParentFour from "./components/Incorrect Optimization/ParentFour";
 
 function App() {
   return (
     <div className="App">
-      <GrantParent>
-        <ParentOne>
-          <ChildOne />
-        </ParentOne>
-      </GrantParent>
+      <ParentFour/>
     </div>
   );
 }
